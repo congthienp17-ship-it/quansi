@@ -3738,13 +3738,13 @@ function CheckItemBPCRBPCR(v463)
 end
 local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Library-ui/refs/heads/main/redz-V5-remake/main.luau"))()
 local v466 = vu32:MakeWindow({
-    Title = "Robot Hub",
-    SubTitle = "Robot Hub",
+    Title = "Robot hub",
+    SubTitle = "skidded version",
     SaveFolder = "Redz | redz lib v5.lua"
 })
 
 v466:AddMinimizeButton({
-    Button = { Image = "rbxassetid://106883451222982", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://15298567397", BackgroundTransparency = 0 },
     Size = UDim2.new(0, 35, 0, 35),
     Corner = { CornerRadius = UDim.new(0.25, 0) },
 })
@@ -3762,10 +3762,10 @@ local v494 = v466:MakeTab({"Visual", "user"})
 local v495 = v466:MakeTab({"Shop", "shoppingCart"})
 local v496 = v466:MakeTab({"Misc", "settings"})
 v484:AddDiscordInvite({
-    Name = "Robot Hub | Community",
+    Name = "DesplockHub | Community",
     Description = "Join server to receive Update",
-    Logo = "rbxassetid://106883451222982",
-    Invite = "https://discord.gg/PZpFEwz8R"
+    Logo = "rbxassetid://131723242350068",
+    Invite = "https://discord.gg/BnEDf68jwx"
 })
 _G.SelectWeapon = "Melee"
 task.spawn(function()
@@ -6634,9 +6634,9 @@ if World3 then
                                     if not l_Character_7:FindFirstChild("Tushita") and not l_Backpack_1:FindFirstChild("Tushita") then
                                         if not v798 then
                                             game.StarterGui:SetCore("SendNotification", {
-                                                Title = "Robot Hub",
+                                                Title = "Tu   n Anh IOS",
                                                 Text = "Use! - Yama or Tushita",
-                                                con = "rbxassetid://106883451222982",
+                                                con = "rbxassetid://131185267344742",
                                                 Duration = 10
                                             })
                                             v798 = true
